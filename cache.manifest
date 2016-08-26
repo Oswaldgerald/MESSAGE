@@ -1,0 +1,78 @@
+CACHE MANIFEST
+
+# Change the line below when updating
+# Last updated: 2014-12-07 13:40 (oystedal)
+
+CACHE:
+
+# Core pages
+manifest.webapp
+index.html
+message.html
+messagelist.html
+newmessage.html
+
+# CSS
+css/bootstrap.css
+css/bootstrap.css.map
+css/bootstrap.min.css
+css/bootstrap-theme.css
+css/bootstrap-theme.css.map
+css/bootstrap-theme.min.css
+css/font-awesome.css
+css/font-awesome.min.css
+css/angular-multi-select.css
+css/style.css
+
+# Fonts
+fonts/FontAwesome.otf
+fonts/fontawesome-webfont.eot
+fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.ttf
+fonts/fontawesome-webfont.woff
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+
+# Img
+img/icons/icon-128.png
+img/icons/icon-16.png
+img/icons/icon-32.png
+img/icons/icon-48.png
+img/icons/icon-64.png
+
+# Js
+js/init.js
+js/jquery/jquery.js
+js/jquery/jquery.min.js
+js/jquery/jquery-1.11.1.min.map
+js/bootstrap/bootstrap.js
+js/bootstrap/bootstrap.min.js
+
+# Angular
+js/angularjs/angular.min.js
+js/angularjs/angular.min.js.map
+js/angularjs/angular-resource.min.js
+js/angularjs/angular-resource.min.js.map
+js/angularjs/angular-route.min.js
+js/angularjs/angular-route.min.js.map
+
+# Angular libs
+js/angular-cached-resource/angular-cached-resource.js
+js/angular-cached-resource/angular-cached-resource.min.js
+js/angular-multi-select/angular-multi-select.js
+
+# Angular app
+js/application.js
+js/services.js
+js/MessageController.js
+js/MessageDetails.js
+js/Message.js
+js/MessageListController.js
+js/NewMessageController.js
+js/routes.js
+js/User.js
+
+NETWORK:
+*

@@ -1,0 +1,198 @@
+body {
+    font-size: 14px;
+    margin-top: 1em;
+    background: #F2F4F7;
+}
+
+.left{
+    float: left;
+    margin-top: auto;
+}
+.space {
+    margin: auto;
+}
+
+.header {
+    display: inline-flex;
+    width: 90%;
+}
+
+.title {
+    margin: auto 0;
+}
+
+.connectionIcon {
+    font-size: 0.5em !important;
+    margin: auto 0 auto 0;
+}
+
+.offline {
+    color: #BBB;
+}
+
+.totalUnread {
+    margin: auto 1em auto 0;
+}
+
+#messageListTitle {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.right-dropdown {
+    text-align: right;
+}
+
+.vspace15 {
+    margin-bottom: 1.5em;
+}
+
+.vspace10 {
+    margin-bottom: 1.0em;
+}
+
+.vspace05 {
+    margin-bottom: 0.5em;
+}
+
+.ellipsize {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.3em;
+    position: relative;
+}
+
+
+.unread {
+    font-weight: bold;
+}
+
+.glyphicon-star {
+    color:#dddd00;
+}
+
+.spin {
+    -webkit-animation: spin 1s infinite linear;
+    -moz-animation: spin 1s infinite linear;
+    -o-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin:50% 50%;
+    -ms-transform-origin:50% 50%; /* IE 9 */
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.loader {
+    height: 50px;
+}
+
+.fillthespan
+{
+    display:block;
+    height:100%;
+    width:100%;
+    text-decoration: none;
+}
+
+/* Message page */
+
+.singleMessage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.sender{
+
+    display: inline;
+    font-size: 100% ;
+    font-weight: bold;
+}
+.messageTime{
+    display: inline;
+    color: grey;
+}
+
+.messageContent{
+    margin-top:10px;
+}
+
+.multipleMessages
+{
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.replyTextArea{
+    min-width: 100%;
+    min-height: 8em;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.replyFields {
+    min-width: 100%;
+}
+
+.newMessageFields {
+    padding-top: 25px;
+}
+
+.newMessageFields input {
+    margin-top: 25px;
+}
+
+
+.messageFilterSelect{
+    display: inline;
+}
+
+#searchBox {
+    display: inline;
+}
+
+.dateDisplay {
+    padding: 0px;
+}
+
+.dateBadge {
+    float: right;
+}
+
+.messageGlyph{
+    padding: 0px;
+    white-space:nowrap;
+
+}
+
+.down-arrow{
+    margin-left: 4px;
+    display: inline;
+    width: 9px;
+    height: 9px;
+    content: url("img/arrow-16.png") left top;
+}
+
+.badge-info {
+  background-color: #337ab7;
+}

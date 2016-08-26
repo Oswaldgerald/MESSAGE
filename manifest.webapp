@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "name": "Messaging Application",
+  "description": "This application is a Touch-based messaging app optimized for touch based devices with offline support for last X months",
+  "launch_path": "index.html",
+  "icons": {
+    "16": "/img/icons/icon-16.png",
+    "32": "/img/icons/icon-32.png",
+    "48": "/img/icons/icon-48.png",
+    "64": "/img/icons/icon-64.png",
+    "128": "/img/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Jean-Charles Leneveu, Bastien de la Selle & Øystein Dale",
+    "url": "https://github.com/INF5750-gitignore/dhis2-app-messaging"
+  },
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "http://inf5750-8.uio.no/"
+    }
+  }
+}
